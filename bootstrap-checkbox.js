@@ -58,12 +58,14 @@
                 label.addClass("active");
                 label.find("span").removeClass("glyphicon-unchecked").addClass("glyphicon-check");
                 this.val(true);
+                this.trigger("change");
             }
             else if (value === false)
             {
                 label.removeClass("active");
                 label.find("span").removeClass("glyphicon-check").addClass("glyphicon-unchecked");
                 this.val(false);
+                this.trigger("change");
             }
             else
             {
