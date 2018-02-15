@@ -1,20 +1,17 @@
-﻿.btn-bootstrap-checkbox {
+.btn-bootstrap-checkbox {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.btn-bootstrap-checkbox:active, .btn-bootstrap-checkbox.active {
     box-shadow: none;
 }
 
-.btn-bootstrap-checkbox {
+.btn-bootstrap-checkbox.unchecked {
     color: #333;
     background-color: #fff;
     border-color: #ccc;
 }
 
-.btn-bootstrap-checkbox:hover {
+.btn-bootstrap-checkbox.unchecked:hover {
     color: #333;
     background-color: #e6e6e6;
     border-color: #adadad;
